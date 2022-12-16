@@ -1,22 +1,13 @@
-﻿# 第4次作業-作業-HW4
->
->學號：109111113  
-><br />
->姓名：陳柏睿 
-><br />
->作業撰寫時間：180 (mins，包含程式撰寫時間)
-><br />
->最後撰寫文件日期：2022/10/12
->
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
 
-本份文件包含以下主題：(至少需下面兩項，若是有多者可以自行新增)
-- [x]說明內容
-- [x]個人認為完成作業須具備觀念
-
-## 說明程式與內容
-下列程式碼為讀取資料以及插入資料
-
-public partial class WebForm1 : System.Web.UI.Page
+namespace _111_1HW4
+{
+    public partial class WebForm1 : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -61,8 +52,3 @@ public partial class WebForm1 : System.Web.UI.Page
         }
     }
 }
-
-
-## 個人認為完成作業須具備觀念
-
-我們運用這些程式碼來抓取大量的資料，或搜尋所要的資料，更方便操控自己所需要的東西。
